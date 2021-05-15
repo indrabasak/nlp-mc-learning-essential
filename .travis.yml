@@ -1,9 +1,14 @@
+# Set the build language to Python
 language: python
+
+# Set the python version to 2.7
 python:
 - '3.7'
+
+# Install the nltk and pandas pip dependency
 install:
-- pip install nltk
-- pip install pandas
+  - pip install -r requirements.txt
+
 notifications:
   email:
   - indra.basak1@gmail.com
