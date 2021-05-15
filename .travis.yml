@@ -1,16 +1,9 @@
 language: python
 python:
-  - "3.7"
-
-# command to install dependencies
+- '3.7'
 install:
-  - pip install nltk
-  - pip install pandas
-
-# command to run tests
-#script:
-#  - pytest
-
+- pip install nltk
+- pip install pandas
 notifications:
   email:
   - indra.basak1@gmail.com
@@ -19,4 +12,5 @@ notifications:
   use_notice: true
 env:
   global:
-    secure: 
+  - secure: 
+  - secure: Quv0s0zC8AY/i/0zC6sl/42rlKcmzLVLuc51iuo7xo8t4WgeY43fNzX20t96AjVjLdw7GBU6+jdrOTFNGTtc7gD2JYb6pSVDoQ0dL8tW4ob6Eb9edwUvm/2M85y98RiFZ4fetdMFvwYwwysYbyOqo2SHtT62ECrEoaWgluO3u9bZVJePw42l+skjtySRID5pf5k5kxCWrSfIM7pOH1057gx8rdOfI66Y6FxBtxPCG9S2YqqUs31Qkr20zwhk76XS+bety+0N6iTW1esmzoIoB8pBq5F1FjPPqWWU+KpSp8bLrVa5RhYxYwm5Xx8HOYudrEGYbJ4CA6LQb4tduot1cjGOkc1PPENrXB7FDNWOnFZCPR/wwYWoO7I/ifu3NFGUtM7eIWO+TYTNUI+G8c2xWqxr4P2wvUxnMgcjHZIAjV1tcuZSJ/YO0Y744eoDoqfR9ZEcJIfvoLntxYlrxIZQpaWm91qfphQoURGofHv5ZhjK9kQb3sU04KZxn5NtEubdRGra6O5GeF0m7sD5Wa9QsuFnaM9RcqraK4UGVsAFoqUd5ibcJ8MVSVZgJ3jrk+yJtJE76+KGB2LmUAOlHMDN6dTR9kSiVQg849YJWsfDfnJiwWEq40HIXOwMfxEV9XMLyDGZD5IeK/b0hyx267CizRzUt/ckn+iMHRZFUOIxF0A=
